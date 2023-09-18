@@ -1,0 +1,9 @@
+clear;
+clc;
+
+%% Pecket
+
+header = [0xFF 0xFF];
+data_length = 0x04;
+length = 0x02 + data_length + 0x01;
+tail   = 0x0A;
